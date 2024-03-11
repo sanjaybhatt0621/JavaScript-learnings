@@ -10,7 +10,7 @@ function createAsyncTask() {
                 reject(`Error ${value}`);
             }
             else {
-                resolve("Resolved ", value*1000);
+                resolve(`Resolved ${value*1000}`);
             }
         }, value * 1000);
     })
